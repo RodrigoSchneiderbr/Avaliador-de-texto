@@ -53,6 +53,8 @@ streamlit run app.py
 ```
 
 ### Estrutura do código
+
+```text
 projeto_ai_avaliador_texto/
 │
 ├── venv/                      # Pasta do ambiente virtual (gerada no Passo 2)
@@ -61,3 +63,4 @@ projeto_ai_avaliador_texto/
 ├── requirements.txt           # Lista de dependências do projeto
 ├── avaliador_de_redacao.py    # Motor principal / Backend (LangGraph)
 └── app.py                     # Interface Web / Frontend (Streamlit)
+```
