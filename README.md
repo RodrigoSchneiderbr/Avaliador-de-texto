@@ -22,7 +22,7 @@ O arquivo `.env` serve para armazenar sua chave da OpenAI com segurança.
 
 ```text
 OPENAI_API_KEY="sk-proj-SuaChaveSecretaDaOpenAiAquiSemEspacosEsemAspas"
-
+```
 ---
 
 ### Passo 2: Criar e Configurar ambiente virtual
