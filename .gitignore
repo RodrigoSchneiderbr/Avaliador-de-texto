@@ -1,0 +1,16 @@
+# Ignorar o ambiente virtual
+venv/
+
+# Ignorar chaves secretas e configurações locais
+.env
+
+# Ignorar arquivos temporários do Python e caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar arquivos gerados por editores/sistemas operacionais
+.vscode/
+.DS_Store
+Thumbs.db
