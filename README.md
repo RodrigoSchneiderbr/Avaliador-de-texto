@@ -51,3 +51,13 @@ pip install -r requirements.txt
 ```text
 streamlit run app.py
 ```
+
+### Estrutura do código
+projeto_ai_avaliador_texto/
+│
+├── venv/                      # Pasta do ambiente virtual (gerada no Passo 2)
+├── .env                       # Chave secreta da API da OpenAI (gerada no Passo 5)
+├── .gitignore                 # Arquivos ignorados pelo Git (gerado na seção Segurança)
+├── requirements.txt           # Lista de dependências do projeto
+├── avaliador_de_redacao.py    # Motor principal / Backend (LangGraph)
+└── app.py                     # Interface Web / Frontend (Streamlit)
