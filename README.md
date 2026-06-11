@@ -28,20 +28,26 @@ OPENAI_API_KEY="sk-proj-SuaChaveSecretaDaOpenAiAquiSemEspacosEsemAspas"
 ### Passo 2: Criar e Configurar ambiente virtual
 Na pasta onde esta o projeto
 
+```text
 python -m venv venv
-
+```
+---
 ativar o ambiente virtual
 
+```text
 .\venv\Scripts\Activate.ps1
-
+```
 ---
 
 ### Passo 3: Instalar dependencias
 
+```text
 pip install -r requirements.txt
-
+```
 ----
 
 ### Passo 4: Executar o aplicativo
 
+```text
 streamlit run app.py
+```
